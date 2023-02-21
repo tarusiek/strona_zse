@@ -1,0 +1,79 @@
+
+
+@media only screen and (max-width: 940px) {
+    .center_navbar ul li{
+      display: none;
+    }
+  
+    .under_navbar{
+      display: none;
+    }
+  
+  
+    /***************FOOTER ZROBIONY***************/
+  
+    .footer{
+      height: 230px;
+    }
+  
+    .grid_footer {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.7fr 1.3fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      height: 230px;
+      }
+    
+    .grid_footer img {
+      height: 100px;
+      filter: invert(1);
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      order: 2;
+      margin-top: 30px;
+    }
+  
+    .text_footer{
+      display: none;
+    }
+  
+  
+    .center_footer_p {
+      text-align: center;
+      position: absolute;
+      bottom: 7.5px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 11.5px;
+    }
+  
+    /***************FOOTER KONIEC***************/
+  
+    #h2_main{
+        display: none !important;
+    }
+    .slider{
+      display: none !important;
+    }
+    .wrapper{
+        display: none !important;
+    }
+    
+    .navigation-manual{
+      display: none;
+    }
+  
+    .navigation-auto{
+      display: none;
+    }
+
+    .menu_hamburger_main{
+        display: block;
+    }
+
+    .navbar_hidden{
+        display: none;
+    }
+  }
