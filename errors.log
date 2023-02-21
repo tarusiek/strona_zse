@@ -1,0 +1,10 @@
+[03-Oct-2022 19:37:16 Europe/Warsaw] PHP Warning:  PHP Startup: open(/tmp/sess_ndihig923n2o3e40o8nr2menfs, O_RDWR) failed: No such file or directory (2) in /app/database/db.php on line 3
+[03-Oct-2022 19:37:16 Europe/Warsaw] PHP Warning:  PHP Startup: Failed to read session data: files (path: /tmp) in /app/database/db.php on line 3
+[03-Oct-2022 19:37:16 Europe/Warsaw] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user '36226312_tarusiek'@'localhost' (using password: YES) in /app/database/connect.php:17
+Stack trace:
+#0 /app/database/connect.php(17): mysqli->__construct()
+#1 /app/database/db.php(4): require('...')
+#2 /app/controllers/users.php(4): include('...')
+#3 /register.php(2): include('...')
+#4 {main}
+  thrown in /app/database/connect.php on line 17
